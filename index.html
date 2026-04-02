@@ -237,6 +237,12 @@
       height: auto;
     }
 
+    .feature-media-frame video {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
     .card-shell {
       max-width: 1020px;
       margin: 34px auto;
@@ -437,7 +443,7 @@
         <a class="hero-btn-primary" href="#" target="_blank" rel="noopener">
           Download on the App Store
         </a>
-        <a class="hero-btn-secondary" href="#features">
+        <a class="hero-btn-secondary" href="#demo">
           See how it works
         </a>
       </div>
@@ -455,61 +461,100 @@
     </p>
   </section>
 
-  <section class="features-media" aria-label="Feature previews">
+  <section id="demo" class="features-media" aria-label="Feature previews">
 
-    <div class="feature-row">
-      <div class="feature-copy">
-        <h3>For employers: hire without the noise</h3>
-        <p>
-          Add your position, start matching, and review candidates privately. Instead of posting publicly and waiting,
-          you get direct candidate matches based on your real hiring needs.
-        </p>
-      </div>
-      <div class="feature-media-frame">
-        <img src="./assets/employer-screen.png" alt="JobConnect employer profile and jobs screen" />
-      </div>
+  <div class="feature-row">
+    <div class="feature-copy">
+      <h3>For employers: hire without the noise</h3>
+      <p>
+        Add your position, start matching, and review candidates privately. Instead of posting publicly and waiting,
+        you get direct candidate matches based on your real hiring needs.
+      </p>
     </div>
-
-    <div class="feature-row reverse">
-      <div class="feature-copy">
-        <h3>For job seekers: stop applying everywhere</h3>
-        <p>
-          Set your desired role, location, work setup, and background once. JobConnect helps you receive relevant employer
-          requests without endless searching.
-        </p>
-      </div>
-      <div class="feature-media-frame">
-        <img src="./assets/jobseeker-screen.png" alt="JobConnect job seeker profile and preferences screen" />
-      </div>
+    <div class="feature-media-frame">
+      <video autoplay muted loop playsinline>
+        <source src="./assets/Clip-employer-apple-final.mp4" type="video/mp4">
+      </video>
     </div>
+  </div>
 
-    <div class="feature-row">
-      <div class="feature-copy">
-        <h3>Approval-based matching</h3>
-        <p>
-          Employers can send a request. Job seekers review and approve if interested. This keeps the experience private,
-          focused, and far more intentional than open job boards.
-        </p>
-      </div>
-      <div class="feature-media-frame">
-        <img src="./assets/match-screen.png" alt="JobConnect approved match screen" />
-      </div>
+  <div class="feature-row reverse">
+    <div class="feature-copy">
+      <h3>For job seekers: stop applying everywhere</h3>
+      <p>
+        Set your desired role, location, work setup, and background once. JobConnect helps you receive relevant employer
+        requests without endless searching.
+      </p>
     </div>
-
-    <div class="feature-row reverse">
-      <div class="feature-copy">
-        <h3>Unlock contact details when both sides agree</h3>
-        <p>
-          After approval, each side can unlock contact details for that specific match. Interviews, offers, and final hiring
-          continue outside the app.
-        </p>
-      </div>
-      <div class="feature-media-frame">
-        <img src="./assets/paywall-screen.png" alt="JobConnect unlock contact paywall screen" />
-      </div>
+    <div class="feature-media-frame">
+      <video autoplay muted loop playsinline>
+        <source src="./assets/jobseeker-apple-final.mp4" type="video/mp4">
+      </video>
     </div>
+  </div>
 
-  </section>
+  <div class="feature-row">
+    <div class="feature-copy">
+      <h3>Smart matching with real scores</h3>
+      <p>
+        JobConnect ranks matches based on role, location, work setup, and experience so you can focus on the best opportunities.
+      </p>
+    </div>
+    <div class="feature-media-frame">
+      <img src="./assets/03_Matches.png" alt="Match scoring system" />
+    </div>
+  </div>
+
+  <div class="feature-row reverse">
+    <div class="feature-copy">
+      <h3>Employers send a request</h3>
+      <p>
+        When a strong match is found, employers can send a request directly to candidates.
+        No job boards. No waiting. Just real opportunities.
+      </p>
+    </div>
+    <div class="feature-media-frame">
+      <img src="./assets/05_Request.png" alt="Employer sends request" />
+    </div>
+  </div>
+
+  <div class="feature-row">
+    <div class="feature-copy">
+      <h3>Job seekers review every match</h3>
+      <p>
+        Each request includes full job details and compatibility score so you can make informed decisions.
+      </p>
+    </div>
+    <div class="feature-media-frame">
+      <img src="./assets/06_Review.png" alt="Review match" />
+    </div>
+  </div>
+
+  <div class="feature-row reverse">
+    <div class="feature-copy">
+      <h3>You stay in control</h3>
+      <p>
+        Approve only the matches you want. Decline the rest. No pressure, no spam — just clean, intentional connections.
+      </p>
+    </div>
+    <div class="feature-media-frame">
+      <img src="./assets/07_Control.png" alt="Approve or decline match" />
+    </div>
+  </div>
+
+  <div class="feature-row">
+    <div class="feature-copy">
+      <h3>Unlock contact when both sides agree</h3>
+      <p>
+        Once both sides approve, contact details can be unlocked and the hiring process continues outside the app.
+      </p>
+    </div>
+    <div class="feature-media-frame">
+      <img src="./assets/09_Unlock.png" alt="Unlock contact details" />
+    </div>
+  </div>
+
+</section>
 
   <section id="features" class="card-shell">
     <div class="card">
@@ -609,7 +654,6 @@
         <span class="lang-chip">Private Matching</span>
         <span class="lang-chip">Approved Requests</span>
         <span class="lang-chip">Per-Match Unlock</span>
-        <span class="lang-chip">Canada Launch</span>
       </div>
     </div>
   </section>
